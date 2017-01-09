@@ -6,7 +6,9 @@ def deleteNode(node):
 
     :node: TODO
     :returns: No return 
-
+    remove the given node by replacing it with next node 
     """
-    node = node.next
+    node.val = node.next.val
+    node.next = node.next.next
+
 
