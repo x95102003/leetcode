@@ -6,7 +6,7 @@ def is_power_of_three(n):
 
     :n: TODO
     :returns: TODO
-
+    with length of n, follow the order :1, 3, 9, 7 and multiply the length with 
     """
     s = str(n)
     n_len = len(s)
