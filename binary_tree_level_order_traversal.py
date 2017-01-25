@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Definition for a binary tree node.
+#Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
@@ -10,8 +10,8 @@ class TreeNode(object):
 def levelOrder(root):
     """TODO: Docstring for levelOrder.
 
-    :root: TODO
-    :returns: TODO
+    :root: class TreeNode 
+    :returns: List[List[int]]
 
     """
     def _addstage(node, i, result):
